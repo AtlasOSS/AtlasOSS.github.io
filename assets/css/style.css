@@ -1,0 +1,90 @@
+/*Document Attributes*/
+html {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+  }
+  
+body {
+	margin: 0px;
+	padding: 0px;
+	min-width: 25%;
+	min-height: 25%;
+	position: relative;
+	animation: slidein 2.5s;
+}
+
+/*Animations*/
+@keyframes slidein {
+	from {
+		margin-left: 150%;
+		opacity: 0.0;
+	}
+
+	to {
+		margin-left: 0%;
+		opacity: 1.0;
+	}
+}
+
+
+
+/*Website Content*/
+.banner {
+	background-image:  url("../img/banner.png");
+	height: 50vw;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.banner-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #ffffffe1;
+	font-family: monospace;
+	font-size: 7.5vw;
+	transform: translate(-50%, -50%);
+}
+
+.oss {
+	color: #c7c7c7e1;
+}
+
+.slogan {
+	animation: pop 2s;
+	white-space: nowrap;
+}
+
+.noselect {
+	user-select: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+}
+
+div {
+	padding-left: 5vw;
+	padding-right: 5vw;	
+}
+
+h1.about-us {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: monospace;
+	font-size: 5vw;
+	color: #3b3f53;
+	white-space: nowrap;
+}
+
+p {
+	font-family: monospace;
+	font-size: 2vw;
+	white-space: nowrap; 
+	color: #3b3f53;
+}
+
+a {
+	text-decoration: none;
+	color: #008CBA;
+}
